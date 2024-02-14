@@ -10,13 +10,13 @@ print("*************************************\n")
 
 if (clave_departamento == 1):
     if (antiguedad_empleado >= 1) and (antiguedad_empleado < 2):
-        print("el empleado",Nombre,"tiene derecho a 6 dias de vacaciones")
+        print("El empleado",Nombre,"Tiene derecho a 6 dias de vacaciones")
     elif (antiguedad_empleado >= 2) and (antiguedad_empleado <= 6):
-        print("el empleado",Nombre,"tiene derecho a 14 dias de vacaciones")
+        print("El empleado",Nombre,"Tiene derecho a 14 dias de vacaciones")
     elif(antiguedad_empleado >= 7):
-        print("el empleado",Nombre,"tiene derecho a 20 dias de vacaciones")
+        print("El empleado",Nombre,"Tiene derecho a 20 dias de vacaciones")
     else:
-         print("el empleado",Nombre,"auno tiene derecho a vacaciones")
+         print("El empleado",Nombre,"No tiene derecho a vacaciones")
 
 elif(clave_departamento == 2):
     if (antiguedad_empleado >= 1) and (antiguedad_empleado < 2):
